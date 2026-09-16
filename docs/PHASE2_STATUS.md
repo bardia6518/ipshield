@@ -1,9 +1,10 @@
-# Phase 2 Status
+﻿# Phase 2 Status
 
 ## Completed steps
 - [x] 2.1 Project Baseline & Repository
 - [x] 2.2 Environment Architecture
 - [x] 2.3 PostgreSQL Foundation
+- [x] 2.4 Database Governance
 
 ## Foundation files
 - [x] Repository layout
@@ -29,3 +30,4 @@
 - [x] Git remote baseline pushed
 
 Phase 2 is complete only after all runtime checks pass.
+
