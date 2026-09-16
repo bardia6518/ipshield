@@ -1,5 +1,10 @@
 # Phase 2 Status
 
+## Completed steps
+- [x] 2.1 Project Baseline & Repository
+- [x] 2.2 Environment Architecture
+- [x] 2.3 PostgreSQL Foundation
+
 ## Foundation files
 - [x] Repository layout
 - [x] Environment architecture
@@ -14,13 +19,13 @@
 - [x] Linux/VPS readiness documentation
 
 ## Runtime acceptance
-- [ ] PostgreSQL healthy
+- [x] PostgreSQL healthy
 - [ ] Redis healthy
-- [ ] migrations pass on PostgreSQL
+- [x] migrations pass on PostgreSQL
 - [ ] queue probe processed
 - [ ] failed job is observable
-- [ ] base test suite passes
-- [ ] secret scan passes
-- [ ] Git remote baseline pushed
+- [x] base test suite passes
+- [x] secret scan passes
+- [x] Git remote baseline pushed
 
 Phase 2 is complete only after all runtime checks pass.
