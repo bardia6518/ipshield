@@ -5,6 +5,7 @@
 - [x] 2.2 Environment Architecture
 - [x] 2.3 PostgreSQL Foundation
 - [x] 2.4 Database Governance
+- [x] 2.5 Redis Foundation
 
 ## Foundation files
 - [x] Repository layout
@@ -21,7 +22,7 @@
 
 ## Runtime acceptance
 - [x] PostgreSQL healthy
-- [ ] Redis healthy
+- [x] Redis healthy
 - [x] migrations pass on PostgreSQL
 - [ ] queue probe processed
 - [ ] failed job is observable
@@ -30,4 +31,5 @@
 - [x] Git remote baseline pushed
 
 Phase 2 is complete only after all runtime checks pass.
+
 
