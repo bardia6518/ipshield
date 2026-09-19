@@ -19,6 +19,7 @@
 - [x] 2.16 Seed / Fixture Foundation
 - [x] 2.17 Storage Foundation
 - [x] 2.18 Dependency Governance
+- [x] 2.19 VPS / Staging Readiness
 
 ## Foundation files
 - [x] Repository layout

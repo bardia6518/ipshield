@@ -1,0 +1,17 @@
+[Unit]
+Description=IPShield Laravel Queue Worker
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/ipshield/backend
+ExecStart=/usr/bin/php artisan queue:work redis --queue=ipshield:queue:default --sleep=1 --tries=3 --timeout=30 --memory=256
+Restart=always
+RestartSec=5
+KillSignal=SIGTERM
+TimeoutStopSec=3600
+
+[Install]
+WantedBy=multi-user.target
