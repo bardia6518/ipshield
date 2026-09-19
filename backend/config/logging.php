@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 use Monolog\Handler\NullHandler;
 use Monolog\Handler\StreamHandler;
@@ -129,6 +129,14 @@ return [
         'null' => [
             'driver' => 'monolog',
             'handler' => NullHandler::class,
+        ],
+
+        'system' => [
+            'driver' => 'daily',
+            'path' => storage_path('logs/system.log'),
+            'level' => env('SYSTEM_LOG_LEVEL', 'info'),
+            'max_files' => 14,
+            'replace_placeholders' => true,
         ],
 
         'security' => [
