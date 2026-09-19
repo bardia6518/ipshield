@@ -18,6 +18,7 @@
 - [x] 2.15 Testing Foundation
 - [x] 2.16 Seed / Fixture Foundation
 - [x] 2.17 Storage Foundation
+- [x] 2.18 Dependency Governance
 
 ## Foundation files
 - [x] Repository layout
