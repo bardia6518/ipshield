@@ -12,6 +12,7 @@
 - [x] 2.9 Backend Architecture Foundation
 - [x] 2.10 Validation Foundation
 - [x] 2.11 Security Baseline
+- [x] 2.12 Logging Foundation
 
 ## Foundation files
 - [x] Repository layout
