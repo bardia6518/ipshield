@@ -15,6 +15,7 @@
 - [x] 2.12 Logging Foundation
 - [x] 2.13 Error Handling Foundation
 - [x] 2.14 Observability Foundation
+- [x] 2.15 Testing Foundation
 
 ## Foundation files
 - [x] Repository layout
