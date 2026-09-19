@@ -10,6 +10,7 @@
 - [x] 2.7 Scheduler Foundation
 - [x] 2.8 REST API Foundation
 - [x] 2.9 Backend Architecture Foundation
+- [x] 2.10 Validation Foundation
 
 ## Foundation files
 - [x] Repository layout
