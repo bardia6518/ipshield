@@ -17,6 +17,7 @@
 - [x] 2.14 Observability Foundation
 - [x] 2.15 Testing Foundation
 - [x] 2.16 Seed / Fixture Foundation
+- [x] 2.17 Storage Foundation
 
 ## Foundation files
 - [x] Repository layout
