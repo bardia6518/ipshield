@@ -2,21 +2,17 @@
 
 namespace App\Providers;
 
+use App\Application\Contracts\TransactionManager;
+use App\Infrastructure\Persistence\LaravelTransactionManager;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
-    /**
-     * Register any application services.
-     */
     public function register(): void
     {
-        //
+        $this->app->bind(TransactionManager::class, LaravelTransactionManager::class);
     }
 
-    /**
-     * Bootstrap any application services.
-     */
     public function boot(): void
     {
         //
