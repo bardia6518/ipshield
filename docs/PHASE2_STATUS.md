@@ -8,6 +8,7 @@
 - [x] 2.5 Redis Foundation
 - [x] 2.6 Queue & Worker Foundation
 - [x] 2.7 Scheduler Foundation
+- [x] 2.8 REST API Foundation
 
 ## Foundation files
 - [x] Repository layout
