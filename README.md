@@ -3,8 +3,8 @@
 IP Reputation & Threat Intelligence Platform.
 
 ## Phase 2 status
-Infrastructure & Backend Foundation is implemented through Roadmap Step 2.20.
-The final Phase 2 acceptance gate must pass before the phase is frozen.
+Infrastructure & Backend Foundation is complete through Roadmap Step 2.20.
+Final Phase 2 acceptance passed on the current implementation.
 
 ## Repository layout
 - `backend/` — Laravel REST API
