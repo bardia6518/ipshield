@@ -13,6 +13,7 @@
 - [x] 2.10 Validation Foundation
 - [x] 2.11 Security Baseline
 - [x] 2.12 Logging Foundation
+- [x] 2.13 Error Handling Foundation
 
 ## Foundation files
 - [x] Repository layout
