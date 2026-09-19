@@ -7,17 +7,33 @@ Every new dependency requires:
 4. security review
 5. justification versus native/framework capability
 
-Rules:
-- commit lock files
-- run dependency audits regularly
-- avoid abandoned packages
+## Rules
+- commit Composer lock files
+- run `composer audit --locked` before release
+- reject known vulnerable dependencies unless an explicit documented exception exists
+- reject abandoned direct dependencies
 - remove dependencies that no longer provide value
+- JavaScript dependencies must not be treated as reproducible until a lock file exists
 
-## Approved Phase 2 dependency: predis/predis
+## Phase 2 audit
+Composer manifest validation: PASS.
+Security advisory audit: PASS — no known advisories at the Phase 2 review.
+Abandoned direct dependencies: none detected.
 
+## Approved Phase 2 runtime dependencies
+
+### predis/predis
 - purpose: Laravel Redis client for cache, queues, locks and short-lived state
-- selected version: `v3.6.0` via Composer lock file
+- locked version at review: v3.6.0
 - license: MIT
-- maintenance: actively maintained at Phase 2 implementation time
-- justification: avoids requiring a PHP Redis extension on the current Windows dev host
-- production note: client choice may be re-evaluated for Linux production without changing the Redis contract
+- justification: portable Redis client without a required PHP Redis extension on the current Windows dev host
+
+### laravel/sanctum
+- purpose: API token authentication foundation
+- locked version at review: v4.3.3
+- license: MIT
+- justification: first-party Laravel authentication primitive selected in Phase 1 architecture
+
+## JavaScript note
+The decoupled frontend has not been initialized in Phase 2, so no frontend Node dependency graph is approved yet.
+The legacy Laravel backend package manifest is not considered the IPShield frontend dependency boundary.
