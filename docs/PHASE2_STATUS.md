@@ -20,6 +20,7 @@
 - [x] 2.17 Storage Foundation
 - [x] 2.18 Dependency Governance
 - [x] 2.19 VPS / Staging Readiness
+- [x] 2.20 Documentation Foundation
 
 ## Foundation files
 - [x] Repository layout
