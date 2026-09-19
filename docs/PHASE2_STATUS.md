@@ -7,6 +7,7 @@
 - [x] 2.4 Database Governance
 - [x] 2.5 Redis Foundation
 - [x] 2.6 Queue & Worker Foundation
+- [x] 2.7 Scheduler Foundation
 
 ## Foundation files
 - [x] Repository layout
