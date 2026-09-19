@@ -11,6 +11,7 @@
 - [x] 2.8 REST API Foundation
 - [x] 2.9 Backend Architecture Foundation
 - [x] 2.10 Validation Foundation
+- [x] 2.11 Security Baseline
 
 ## Foundation files
 - [x] Repository layout
