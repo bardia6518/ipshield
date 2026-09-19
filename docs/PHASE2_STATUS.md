@@ -9,6 +9,7 @@
 - [x] 2.6 Queue & Worker Foundation
 - [x] 2.7 Scheduler Foundation
 - [x] 2.8 REST API Foundation
+- [x] 2.9 Backend Architecture Foundation
 
 ## Foundation files
 - [x] Repository layout
